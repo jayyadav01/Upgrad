@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto',sans-serif;
+}
+
+.con
+{
+    /* background-color: blueviolet; */
+    width: 1170px;
+    margin: 10px auto;
+    display: flex;
+}
+.one
+{
+    /* background-color: darkgreen; */
+    margin-left: 20px;
+}
+.two
+{
+    /* background-color: rosybrown; */
+    margin-left: 100px;
+}
+.one,.two
+{
+    flex: 1;
+}
+.logo
+{
+    padding: 50px 0;
+    padding-top: 20px;
+}
+.greet
+{
+    /* background-color:brown; */
+    position: relative;
+}
+.greet h1
+{
+    font-weight: 400;
+    font-size: 30px;
+}
+.greet img
+{
+    position: absolute;
+    top: 8px;
+    left: 130px;
+}
+.greet p{
+    font-size: 14px;
+    color:gray;
+    margin: 20px 0;
+}
+
+.form input
+{
+    border: 1px solid rgba(0,0,0,0.1);
+    padding : 15px 5px ;
+    margin: 5px 0;
+    width: 450px;
+    border-radius: 5px;
+}
+.form a{
+    color: #000;
+    font-size: 14px;
+    display: inline-block;
+    margin: 20px 0 10px;
+}
+.form .sub
+{
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+    
+}
+
+.social
+{
+    /* background-color: rgb(33, 17, 6); */
+    width: 100%;
+    height: 21%;
+    /* margin: 60px 0px 40px 140px; */
+
+}
+.social p
+{
+    font-size: 14px;
+    color:gray;
+    padding-left: 145px;
+    margin-top: 50px;
+}
+.social .sm
+{
+    color: gray;
+    border: 1px solid rgba(211, 211, 211, 0.26);
+    border-radius: 360%;
+    padding: 12px;
+}
+.social .google
+{
+    float: left;
+    margin: 20px 20px 70px 175px;
+    
+}
+.social .linkdin
+{
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.copy 
+{
+    padding-left: 115px;
+    /* background-color: aqua; */
+    clear: both;
+    /* margin-bottom: ; */
+}
+.copy p
+{
+    
+    color:gray;
+    font-size: 12px;
+}
+
+.two .container
+{
+    width: 88%;
+    height: 100%;
+    /* border: 2px solid red; */
+    margin-left: 20px;
+}
+.two .firsth2
+{
+    font-weight: 300;
+    margin-top: 20px;
+}
+.two .secondh2
+{
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.two p
+{
+    color: rgba(0, 0, 0, 0.44);
+}
+.two img
+{
+    margin-left: 50px;
+    margin-top: 130px;
+}
